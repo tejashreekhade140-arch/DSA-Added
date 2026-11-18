@@ -13,4 +13,5 @@ def calculateElectricityBill(units: int) -> float:
         bill = 800 + (units - 300) * 5.00
 
     return round(bill + 50, 2)
+    
 print(calculateElectricityBill(50))
